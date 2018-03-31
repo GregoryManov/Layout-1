@@ -18,6 +18,9 @@
 	display: flex;
 }
 
+.block1{
+	margin-right: 20px;
+}
 .block1:after{
 	content: '1';
 }
