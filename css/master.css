@@ -1,0 +1,36 @@
+.html{
+
+}
+
+.body{
+
+}
+
+/*Colors*/
+.grey{
+	background: #76787a;
+}
+.greylight{
+	background: #d9dde0;
+}
+
+.header-wrapper{
+	display: flex;
+}
+
+.block1:after{
+	content: '1';
+}
+.block2:after{
+	content: '2';
+}
+.block3:after{
+	content: '3';
+}
+
+.gallery{
+	display: flex;
+}
+.block6:after{
+	content: '6';
+}
