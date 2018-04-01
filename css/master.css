@@ -29,7 +29,7 @@
 .header-wrapper{
 	display: flex;
 	justify-content: space-between;
-}
+}	
 
 .block1, .block2, .block3{
 	position: relative;
@@ -47,7 +47,15 @@
 
 .block3 {
 	width: 50%;
+	text-align: right;
 }
+
+.block3 p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
 .block1::after{
 	position: absolute;
 	left: 5px;
