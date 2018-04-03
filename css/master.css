@@ -97,8 +97,11 @@ section {
 	margin-left: 30px;
 }
 
-aside {
+.aside {
+	display: flex;
 	flex: 1;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .content-wrapper {
@@ -114,6 +117,18 @@ aside {
 	}
 	.block5 ul {
 		padding: 25px;
+	}
+
+	/*### Aside ###*/
+	.block4 {
+		flex: 2;
+		flex-basis: 70%;
+		margin-bottom: 25px;
+	}
+
+	.block7 {
+		flex: 1;
+		flex-basis: 15%;
 	}
 
 .gallery{
@@ -139,6 +154,10 @@ aside {
 	.block8, .block9 p {
 		padding: 25px;
 	}
+
+/*###### Aside ######*/
+
+
 
 /*###### Footer ######*/
 .footer-wrapper {
